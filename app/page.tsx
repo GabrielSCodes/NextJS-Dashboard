@@ -17,6 +17,7 @@ export default function Page() {
           <p
             className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
           >
+            {/* Anytime we want to add tailwind css with our custom css, we have to put it inside tick. And your custom css needs to have a $ in front of it */}
             <strong>Welcome to Acme.</strong> This is the example for the{' '}
             <a href="https://nextjs.org/learn/" className="text-blue-500">
               Next.js Learn Course
